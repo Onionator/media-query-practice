@@ -1,0 +1,29 @@
+h1 {
+  color: #20682f;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: black;
+    color:white;
+  }
+  .column {
+    width: 400px;
+    float: left;
+    padding: 20px;
+  }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 768px) {
+  body {
+    background-color: #ff00ff;
+    color: olive;
+    text-shadow: 1px 1px #000;
+  }
+  h1 {
+    color: black;
+  }
+}
